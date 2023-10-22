@@ -1,17 +1,5 @@
-Santander Dev Week 2023 (ETL com Python)
-
-
-Contexto: Você é um cientista de dados e recebeu a tarefa de identificar os municipos que não entregaram a Matriz de Saldos Contábeis, ou simplesmente MSC ao Site da https://siconfi.tesouro.gov.br/.
-
-Condições do Problema:
-
-Você recebeu uma planilha simples, em formato CSV ('SDW2023.csv'), com uma lista de códigos de IBGE do minicipo:
-
-IBGE_Id
+<div class="ql-editor" data-gramm="false" contenteditable="true"><h1><strong>Santander Dev Week 2023 (ETL com Python)</strong></h1><p><br></p><p><strong>Contexto:</strong>&nbsp;Você é um cientista de dados e recebeu a tarefa de identificar os municipos que não entregaram a Matriz de Saldos Contábeis, ou simplesmente MSC ao Site da&nbsp;<a href="https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fsiconfi.tesouro.gov.br%2F" rel="noopener noreferrer" target="_blank" style="color: var(--colab-anchor-color);">https://siconfi.tesouro.gov.br/</a>.</p><p><strong>Condições do Problema:</strong></p><ol><li>Você recebeu uma planilha simples, em formato CSV ('SDW2023.csv'), com uma lista de códigos de IBGE do minicipo:</li></ol><pre class="ql-syntax" spellcheck="false">IBGE_Id
 2507507
 2500106
 2700102
-
-Seu trabalho é consumir o endpoint curl -X 'GET'
-'https://apidatalake.tesouro.gov.br/ords/siconfi/tt/extrato_entregas?id_ente={IBGE_ID}&an_referencia={ano_referencia}' (API da Tesouro.gov.br) para obter os dados de cada municipo.
-Depois de obter os dados dos Municipios, ira verificar qual a instituição esta faltando a entregar a MSC e notifica-la.
+</pre><ol><li>Seu trabalho é consumir o endpoint&nbsp;<code style="background-color: var(--code-cell-background);">curl -X 'GET'</code></li><li><code style="background-color: var(--code-cell-background);">'https://apidatalake.tesouro.gov.br/ords/siconfi/tt/extrato_entregas?id_ente={IBGE_ID}&amp;an_referencia={ano_referencia}'</code>&nbsp;(API da Tesouro.gov.br) para obter os dados de cada municipo.</li><li>Depois de obter os dados dos Municipios, ira verificar qual a instituição esta faltando a entregar a MSC e notifica-la.</li></ol></div>
